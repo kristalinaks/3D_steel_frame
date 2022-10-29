@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_3D"
+        android:icon="@drawable/ic_nav_3d"
+        android:title="3D" />
+
+    <item
+        android:id="@+id/nav_XY"
+        android:icon="@drawable/ic_nav_xy"
+        android:title="XY" />
+
+    <item
+        android:id="@+id/nav_XZ"
+        android:icon="@drawable/ic_nav_xz"
+        android:title="XZ" />
+
+    <item
+        android:id="@+id/nav_YZ"
+        android:icon="@drawable/ic_nav_yz"
+        android:title="YZ" />
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toolRun"
+        android:icon="@drawable/ic_toolbar_run"
+        android:title="Run"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toolLock"
+        android:icon="@drawable/ic_toolbar_unlock"
+        android:title="Lock"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toolUndeformed"
+        android:icon="@drawable/ic_toolbar_undeformed"
+        android:title="Undeformed"
+        app:showAsAction="always"/>
+
+    <group android:id="@+id/toolMenu">
+
+        <item
+            android:id="@+id/toolShowGraph"
+            android:title="Show Graph"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/toolShowLoad"
+            android:title="Show Load/Section"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/toolShowDisplacementValue"
+            android:title="Show Displacement Value"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/toolShowFrameSection"
+            android:title="Show Frame Section"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/toolShowPM"
+            android:title="Show P-M SF"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/toolShowShear"
+            android:title="Show Shear SF"
+            app:showAsAction="never"/>
+    </group>
+</menu>

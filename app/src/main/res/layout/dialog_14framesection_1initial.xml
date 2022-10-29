@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="270dp"
+    android:orientation="vertical"
+    android:background="@color/dialogBackground"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Frame Section"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorLine" />
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/btnDefineFrameSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:background="@color/buttonBackground"
+            android:paddingTop="@dimen/card_padding"
+            android:paddingBottom="@dimen/card_padding"
+            android:text="Define Frame Section"
+            android:textColor="@color/buttonText" />
+
+        <Button
+            android:id="@+id/btnAssignFrameSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:background="@color/buttonBackground"
+            android:paddingTop="@dimen/card_padding"
+            android:paddingBottom="@dimen/card_padding"
+            android:text="Assign Frame Section"
+            android:textColor="@color/buttonText" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancelFrameInitial"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/buttonBackground"
+        android:gravity="center"
+        android:text="cancel"
+        android:textColor="@color/buttonText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

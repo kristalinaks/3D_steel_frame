@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="450dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/dialogBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textColor="@color/colorTextBlack"
+        android:text="Joint Load"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorLine"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="0dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fx (kN) :"
+            android:textColor="@color/colorTextBlack" />
+
+        <EditText
+            android:id="@+id/txtForceX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Force Global X"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fy (kN) :"
+            android:textColor="@color/colorTextBlack" />
+
+        <EditText
+            android:id="@+id/txtForceY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Force Global Y"
+            android:inputType="numberSigned|numberDecimal"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fz (kN) :"
+            android:textColor="@color/colorTextBlack" />
+
+        <EditText
+            android:id="@+id/txtForceZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Force Global Z"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mx (kNm) :"
+            android:textColor="@color/colorTextBlack" />
+
+        <EditText
+            android:id="@+id/txtMomentX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Moment Global X"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My (kNm) :"
+            android:textColor="@color/colorTextBlack" />
+
+        <EditText
+            android:id="@+id/txtMomentY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Moment Global Y"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mz (kNm) :"
+            android:textColor="@color/colorTextBlack" />
+
+        <EditText
+            android:id="@+id/txtMomentZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Moment Global Z"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgJointLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtnAddJointLoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:textColor="@color/colorTextBlack"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:layout_marginEnd="20dp"/>
+
+            <RadioButton
+                android:id="@+id/rbtnReplaceJointLoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Replace"
+                android:textColor="@color/colorTextBlack"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioButton
+                android:id="@+id/rbtnDeleteJointLoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="@color/colorTextBlack"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOKJointLoad"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginEnd="15dp"
+            android:background="@color/buttonBackground"
+            android:gravity="center"
+            android:text="ok"
+            android:textColor="@color/buttonText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancelJointLoad"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:background="@color/buttonBackground"
+            android:gravity="center"
+            android:text="cancel"
+            android:textColor="@color/buttonText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

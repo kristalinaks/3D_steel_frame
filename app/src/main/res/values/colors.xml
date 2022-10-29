@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#211200</color>
+    <color name="colorPrimaryDark">#211200</color>
+    <color name="colorAccent">#FF9100</color>
+    <color name="colorBackground">#372B1C</color>
+
+    <!-- text -->
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextBlack">#000000</color>
+
+    <!-- dialog -->
+    <color name="colorLine">#211200</color>
+    <color name="dialogBackground">#FFFFFF</color>
+
+    <!-- button -->
+    <color name="buttonBackground">#211200</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <!-- canvas -->
+    <color name="colorRedTrans">#78ff0000</color>
+    <color name="colorBlueTrans">#78001eff</color>
+    <color name="colorGreenTrans">#7815ff00</color>
+    <color name="colorRedSolid">#ff0000</color>
+    <color name="colorBlueSolid">#001eff</color>
+    <color name="colorGreenSolid">#15ff00</color>
+
+    <color name="hint">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

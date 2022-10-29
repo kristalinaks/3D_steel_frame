@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/ic_menu_create"
+            android:title="Create Project" />
+        <item
+            android:id="@+id/nav_open"
+            android:icon="@drawable/ic_menu_open"
+            android:title="Open Project" />
+        <item
+            android:id="@+id/nav_save"
+            android:enabled="true"
+            android:icon="@drawable/ic_menu_save"
+            android:title="Save" />
+        <item
+            android:id="@+id/nav_export"
+            android:enabled="true"
+            android:icon="@drawable/ic_menu_export"
+            android:title="Export Analysis" />
+        <item
+            android:id="@+id/nav_exportDesign"
+            android:enabled="true"
+            android:icon="@drawable/ic_menu_export"
+            android:title="Export Design" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

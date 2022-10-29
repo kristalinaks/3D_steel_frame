@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CEMApp Steel Frame</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="konten_about">
+        CEMApp Steel Frame is an android application for structural analysis and design of 3D steel frame.
+        "\n"
+        "\n"
+
+        Made by Kristalina Kartika Sari
+        "\n"
+        with help from Christopher Triyoso
+        "\n"
+        and main source code from N. M. Naufaldo
+        "\n"
+        "\n"
+
+        Version 1.0.0
+        "\n"
+        2020
+        "\n"
+        "\n"
+    </string>
+    <string name="subtitle_drawer">Civil Engineering Mobile Application</string>
+</resources>
