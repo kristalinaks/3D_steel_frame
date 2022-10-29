@@ -1,5 +1,6 @@
-# 3D_steel_frame
-Development of Design and Analysis Software of 3D Steel Frame Based on Android
+# Development of Design and Analysis Software of 3D Steel Frame Based on Android
+
+App Demo: http://tiny.cc/demoAndroid
 
 In general, the design and analysis of 3-dimensional frame structures is carried out with the help of software because it requires a complex calculation process. Nowadays, a software that works on more portable devices, such as Android smartphones, is also needed. In addition, the developed software needs to facilitate constructions in Indonesia by accommodating commonly used steel profiles in Indonesia and earthquake resistance analysis in accordance with SNI.
 
